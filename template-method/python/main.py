@@ -19,6 +19,8 @@ class CSVDisplay(AbstractDisplay):
 
 if __name__ == "__main__":
     """
+    3-Template Methodパターン
+
     抽象クラスであるスーパークラス(AbstractDisplay) に、テンプレート機能と抽象メソッドがある。
     テンプレート機能内で、抽象メソッドが利用される。
     サブクラスでは、抽象メソッドの実装が行われ、今回の例ではcsvをロードするデータが実装されている。

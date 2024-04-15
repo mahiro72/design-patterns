@@ -28,6 +28,8 @@ class Adapter(Target, Adaptee):
 
 if __name__ == "__main__":
     """
+    2-Adapterパターン
+
     これまではTargetインターフェース満たす別のオブジェクトを利用してjsonデータを取得していた。
     今回の例では、Targetインターフェースと他のクラス(Adaptee)を継承した、新しいクラス(Adapter)を用意することで、
     xmlデータからjsonデータを取得できるようになり、既存のコードと置き換えができる。

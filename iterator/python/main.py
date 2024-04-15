@@ -22,8 +22,10 @@ class BookShelf(Iterable):
 
 class BookShelfIterator(Iterator):
     """
-    BookShelfIteratorは、順番に要素にアクセスするIteratorの実装です。
-    各Iteratorごとにindexを持っており、1つのIterableから複数のIteratorを生成できます。
+    1-Iteratorパターン
+
+    BookShelfIteratorは、順番に要素にアクセスするIteratorの実装。
+    各Iteratorごとにindexを持っており、1つのIterableから複数のIteratorを生成できる。
     """
     def __init__(self, book_shelf: BookShelf) -> None:
        self._collection = book_shelf.get_collection()

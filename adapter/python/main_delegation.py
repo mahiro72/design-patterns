@@ -29,6 +29,8 @@ class Adapter(Target):
 
 if __name__ == "__main__":
     """
+    2-Adapterパターン
+
     もう一つのファイル(main_inheritance.py)の委譲バージョン。
     Adapterのインスタンス作成時にAdapteeをDIしている。
     """
