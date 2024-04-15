@@ -15,7 +15,7 @@ class Adaptee:
     def get_xml(self) -> any:
         return self._xml_data
 
-class Adapter(Target, Adaptee):
+class Adapter(Target):
     def __init__(self, adaptee: Adaptee) -> None:
         self._adaptee = adaptee
 
