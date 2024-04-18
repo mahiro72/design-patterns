@@ -40,7 +40,7 @@ if __name__ == "__main__":
     """
     5-Singletonパターン
 
-    インスタンスを1つしか存在しないように生成するパターン。
+    1つのインスタンスしか生成しないことを保証するパターン。
     """
     process1 = Thread(target=test_create_my_singletons, args=["hoge", "process1"])
 
